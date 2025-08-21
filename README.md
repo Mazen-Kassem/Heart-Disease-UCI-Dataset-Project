@@ -1,4 +1,4 @@
-# Heart-Disease-UCI-Dataset-Project
+## Heart-Disease-UCI-Dataset-Project
 This project applies **Machine Learning** techniques to the **UCI Heart Disease dataset** to predict the presence of heart disease.  
 It covers **Data Preprocessing, Dimensionality Reduction (PCA), Feature Selection, Supervised and Unsupervised Learning, Hyperparameter Tuning, and Deployment** of the final trained model.
 
@@ -14,7 +14,7 @@ It covers **Data Preprocessing, Dimensionality Reduction (PCA), Feature Selectio
   - Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)  
   - Model deployment with full pipeline  
 
-  # Repository Structure
+## Repository Structure
  Heart-Disease-UCI-Dataset-Project/
 ├── deliverables/
 │ ├── cleaned_data.csv
