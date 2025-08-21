@@ -1,0 +1,33 @@
+=== Supervised Models (Base) - Test Set ===
+
+       Model  Accuracy  Precision   Recall       F1      AUC
+RandomForest  0.868852   0.812500 0.928571 0.866667 0.960498
+      LogReg  0.868852   0.812500 0.928571 0.866667 0.948052
+         SVM  0.852459   0.787879 0.928571 0.852459 0.937229
+DecisionTree  0.770492   0.705882 0.857143 0.774194 0.777056
+
+
+=== Hyperparameter Tuning ===
+
+RF best AUC (CV): 0.9150
+
+RF best params: {'max_depth': 13, 'max_features': 'log2', 'min_samples_leaf': 3, 'min_samples_split': 2, 'n_estimators': 426}
+
+SVM best AUC (CV): 0.9107
+
+SVM best params: {'C': 5, 'gamma': 0.001, 'kernel': 'rbf'}
+
+
+Chosen Best Model: RandomForest
+
+(Tuned Best Model) Test metrics:
+
+Accuracy: 0.9016
+
+Precision: 0.8667
+
+Recall: 0.9286
+
+F1: 0.8966
+
+AUC: 0.9600
